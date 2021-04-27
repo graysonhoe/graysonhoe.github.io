@@ -13,6 +13,7 @@
  h2 {
  	text-align: center;
  	font-family: 'Playfair Display', serif;
+ 	color: black;
  }
 
 h3 {
@@ -35,7 +36,7 @@ p {
 
 div {
   width: 150px;
-  border: 5px solid #598392;
+  border: 3px solid #598392;
   padding: 30px;
   margin: 20px;
 }
@@ -48,10 +49,20 @@ box {
 }
 
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: %60;
+}
 
 
-
-
+img {
+	border-color: #4E8098;
+	border-width: 4px;
+	border-style: solid;
+	border-radius: %10
+}
 
 
 
